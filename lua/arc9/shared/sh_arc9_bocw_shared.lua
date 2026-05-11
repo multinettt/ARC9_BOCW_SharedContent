@@ -1,5 +1,5 @@
 CreateConVar("arc9_bocw_sprintmultiplier", 0, FCVAR_ARCHIVE, "Check ARC9 Settings Menu for info")
-CreateConVar("arc9_bocw_customslot", 0, FCVAR_ARCHIVE, "Check ARC9 Settings Menu for info")
+CreateConVar("arc9_bocw_customslot", 1, FCVAR_ARCHIVE, "Check ARC9 Settings Menu for info")
 
 if CLIENT then--// Taken and adapted from https://github.com/Mal0-1471/arc9_eft_shared/blob/main/lua/arc9/common/sh_eft_shared.lua
     timer.Simple(1, function()
@@ -32,4 +32,4 @@ if CLIENT then--// Taken and adapted from https://github.com/Mal0-1471/arc9_eft_
     end)
 end
 
-list.Set("ContentCategoryIcons", "ARC9 - Black Ops Cold War", "entities/arc9_bocw.png")
+list.Set("ContentCategoryIcons", "ARC9 - Black Ops Cold War", "entities/arc9_bocw.jpg")
