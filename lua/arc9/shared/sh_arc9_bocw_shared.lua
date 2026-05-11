@@ -18,7 +18,7 @@ if CLIENT then--// Taken and adapted from https://github.com/Mal0-1471/arc9_eft_
 	        	type = "bool",
 	        	text = "Enable Sprint Speed Multiplier",
 	            convar = "bocw_sprintmultiplier",
-	            desc = "Enables and applies the original sprint multiplier values to all* BOCW weapons.\n\nThis essentially nerfs the default GMOD sprint speed and used to be on by default.\n\nREQUIRES RESTART."
+	            desc = "Enables and applies the original sprint multiplier values to all BOCW weapons.\n\nThis essentially nerfs the default GMOD sprint speed and used to be on by default.\n\nREQUIRES RESTART."
 	        },
 	        {
             	sv = true,
@@ -37,7 +37,7 @@ if CLIENT then--// Taken and adapted from https://github.com/Mal0-1471/arc9_eft_
 	        	},
 	        	text = "Spawnmenu Icon",
 	            convar = "bocw_icon",
-	            desc = "Spawnmenu icon displayed next to ARC9 - Black Ops Cold War.\n\nREQUIRES RESTART."
+	            desc = "Icon displayed next to ARC9 - Black Ops Cold War in the spawnmenu.\n\nREQUIRES RESTART."
 	        },
         }
         
