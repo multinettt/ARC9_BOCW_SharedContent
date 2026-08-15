@@ -116,6 +116,15 @@ sound.Add({
 })
 
 sound.Add({
+    name = "ARC9_BOCW.Shared_Pistol_Melee_Swing",
+    channel = CHAN_AUTO,
+    volume = 1.0,
+    sound = { "weapons/arc9/bocw/pistol_melee_swing1.wav",
+    "weapons/arc9/bocw/pistol_melee_swing2.wav",
+    "weapons/arc9/bocw/pistol_melee_swing3.wav"}
+})
+
+sound.Add({
     name = "ARC9_BOCW.Shared_Knife_Swing",
     channel = CHAN_AUTO,
     volume = 1.0,
